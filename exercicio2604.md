@@ -29,4 +29,12 @@ FROM products
 WHERE price < 10 OR price > 100
 ```
 
+# outra solução possível para esse exercício é usar o NOT BETWEEN
+```
+SELECT id, name
+FROM products
+WHERE price NOT BETWEEN 10 AND 100
+```
+
+
 
