@@ -62,3 +62,5 @@ INNER JOIN providers ON products.id_providers = providers.id
 INNER JOIN categories ON products.id_categories = categories.id
 WHERE providers.name = 'Sansul SA' AND categories.name = 'Imported'
 ```
+
+obs. como temos que juntar 3 tabelas, fazemos o INNER JOIN duas vezes, e por fim fazemos a restrição usando o WHERE e o AND.
