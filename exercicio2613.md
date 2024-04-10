@@ -1,4 +1,4 @@
-# exercicio2613: exibir o id e nome com preço menor que 2.00
+# exercicio2613: exibir o id e nome do filme com preço menor que 2.00
 
 
 # criando a tabela e fazendo seed dos dados
