@@ -1,4 +1,4 @@
-# exercicio2620: exibir o nome dos clientes que sejam pessoa jurídica.
+# exercicio2622: exibir o nome dos clientes que sejam pessoa jurídica.
 
 
 # criando a tabela e fazendo seed dos dados
