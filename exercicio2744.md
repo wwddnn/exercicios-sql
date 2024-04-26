@@ -23,3 +23,8 @@ VALUES (1, 'Joyce P. Parry', 'Promeraw', 'noh1Oozei'),
 # solução para esse exercício
 
 ```
+SELECT id, password, MD5(password) AS MD5
+FROM account;
+```
+
+obs. usamos o MD5 para gerar um hash para a coluna password. E depois apelidamos usando o AS MD5.
