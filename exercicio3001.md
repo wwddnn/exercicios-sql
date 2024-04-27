@@ -1,4 +1,8 @@
-# exercicio3001: mostrar nome e preço de todos os produtos; mostrar na ordem produtos tipo A, depois B e depois C. order os produtos pelo id em forma decrescente. se o tipo do produto for A o preço será 20.0, se for B será 70.0, se for C serpa 530.5
+# exercicio3001: 
+
+mostrar nome e preço de todos os produtos; 
+mostrar na ordem produtos tipo A, depois B e depois C. ordenar os produtos pelo id em forma decrescente. e ordenar em ordem crescente pelos preços.
+se o tipo do produto for A o preço será 20.0, se for B será 70.0, se for C será 530.5
 
 
 # criando a tabela e fazendo seed dos dados
