@@ -24,4 +24,9 @@ VALUES
 ```
 
 # solução para esse exercício
+```
+SELECT city
+FROM providers
+ORDER BY city ASC;
+```
 
