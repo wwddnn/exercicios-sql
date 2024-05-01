@@ -36,13 +36,13 @@ VALUES (1, 'The Quack Bats'),
 obs. pesquisar no google sobre UNION SQL POSTGRES para achar como é usar o UNION entre duas consultas.
 
 ```
-SELECT CONCAT('Podium:', team) AS name
+SELECT CONCAT('Podium: ', team) AS name
 FROM league
 WHERE position <= 3
 
-UNION
+UNION ALL
 
-SELECT CONCAT('Demoted:', team) AS name
+SELECT CONCAT('Demoted: ', team) AS name
 FROM league
 WHERE position >= 14;
 ```
