@@ -24,7 +24,7 @@ values
 SELECT amount, COUNT(amount) AS most_frequent_value
 FROM value_table
 GROUP BY amount
-ORDER BY most_frequent_value DESC
+ORDER BY COUNT(amount) DESC
 LIMIT 1;
 ```
 
@@ -38,6 +38,6 @@ obs. no final o código fica assim abaixo ... pois tira a projeção já que ela
 SELECT amount AS most_frequent_value
 FROM value_table
 GROUP BY amount
-ORDER BY most_frequent_value DESC
+ORDER BY COUNT(amount) DESC
 LIMIT 1;
 ```
