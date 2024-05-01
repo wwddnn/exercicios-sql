@@ -1,8 +1,10 @@
---- URI Online Judge SQL
---- Copyright URI Online Judge
---- www.urionlinejudge.com.br
---- Problem 2615
+# exercicio 2615:
 
+Exibir o nome das cidades onde moram os clientes, mas sem que o nome da cidade se repita.
+
+
+# criando a tabela e fazendo seed dos dados
+```
 CREATE TABLE customers (
   id numeric PRIMARY KEY,
   name varchar(50),
@@ -19,7 +21,13 @@ VALUES
   (4,	'Sarah Carvalho Correia',	'Rua Antônio Carlos da Silva',	'Uberlândia'),
   (5,	'João Almeida Lima',	'Rua Rio Taiuva',	'Ponta Grossa'),
   (6,	'Diogo Melo Dias',	'Rua Duzentos e Cinqüenta',	'Várzea Grande');
-  
+```
 
-/*  Execute this query to drop the tables */
--- DROP TABLE customers; --
+# solução para esse exercício
+
+```
+SELECT DISTINCT city
+FROM customers;
+```
+
+obs. usamos o termo DISTINCT para que não tenhamos cidades repetidas.
